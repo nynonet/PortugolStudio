@@ -11,7 +11,6 @@ programa
 		real pesoPc // Peso Cúbico calculado 
 		real pesoCalc //Peso que será utilizado para calculo do valor a pagar
 		real preco = 7.75 // preço informado por kilo
-		cadeia regra	//receberá a regra aplicada
 
 		escreva("Calculando informações sobre a encomenda ")
 		escreva("\nInforme o compirmento da encomenda (c):")
@@ -25,7 +24,7 @@ programa
 
 		//calculando o Peso Cúbico
 		pesoPc = (c*l*a)/indice
-		limpa()
+		limpa() //limpa a tela 
 		escreva("")
 		escreva("Medidas: (",c," x ",l," x ",a,")")
 		escreva("\nPeso Físico: ",peso,"kg")
@@ -59,5 +58,5 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1301; 
+ * @POSICAO-CURSOR = 1211; 
  */
